@@ -7,8 +7,9 @@
     }
 }
 
-OBS: Após definir o arquivo composer.json, devemos carregar o composer, via terminal, pelo comando 'composer install'
+OBS: Após definir o arquivo composer.json, devemos carregar o composer, via terminal, pelo comando 'composer install'.
 Após rodar o composer, vai ser criada uma pasta chamada vendor e dentro dela, será criada o arquivo autoload.php. Este é o único
 arquivo q vamos precisar incluir dentro do nosso projeto para q as classes sejam referenciadas e a gente consiga acessar as pastas do nosso 
-projeto, seja as classes q vão estar dentro da pasta app com as classes q serão criadas ou seja tbm as classes dentro de nossas dependências 
-que podemos baixar para o nosso projeto.
+projeto, seja as classes q vão estar dentro da pasta app com as classes q serão criadas, ou seja, tbm as classes dentro de nossas dependências 
+que podemos baixar para o nosso projeto. 
+A pasta composer criada contém dependências q vçao ajudar a gerenciar os autoloads.
